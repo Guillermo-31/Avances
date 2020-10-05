@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Condensed&family=Oswald:wght@500&family=Fredoka+One&family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilosregister.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="icon" href="LOGO WEB SITE1.ico">
+    <meta charset="UTF-8">
+    <title>Crear Cuenta</title>
+</head>
+<body>
+
+    <div class="form">
+        <div class="logo">
+            <img src="Imagenes/LOGO WEB SITE.png" class="logo" title="The Movie House">
+            <p>The<br>Movie<br>House</p>
+        </div>
+        <br><br><br>
+    <form action="">
+        <label for="">Nombre Completo:</label>
+        <br>
+        <input required type="text" name="nombre" id="nombre" placeholder="Ejemplo: Amilcar Alexander Valladares García">
+        <br><br>
+        <label for="">Nombre de Usuario:</label>
+        <br>
+        <input required type="text" name="username" id="usermane" placeholder="Ejemplo: AmilcarValle03">
+        <br><br>
+        <label for="">Correo:</label>
+        <br>
+        <input required type="email" name="correo" id="correo" placeholder="Ejemplo: AmilacarValle@gmail.com">
+        <br><br>
+        <label for="">Género:</label> 
+        <br><br>
+        <label for="gender" class="genero">Masculino</label>
+        <input required class="genero" type="radio" name="gender" id="gender" value="Masculino">
+        <br>
+        <label for="gender" class="genero">Femenino</label>
+        <input required class="genero" type="radio" name="gender" id="gender" value="Femenino">
+        <br>
+        <label for="gender" class="genero">Indefinido</label>
+        <input required class="genero" type="radio" name="gender" id="gender" value="Indefinido">
+        <br><br>
+        <label for="">Fecha de Nacimiento:</label>
+        <input required type="date" name="born" id="born">
+        <br><br>
+        <label for="">País:</label>
+        <select required name="pais" id="pais">
+            <option  value="Alemania">Alemania</option>
+            <option  value="Argentina">Argentina</option>
+            <option  value="Belgica">Belgica</option>
+            <option  value="Belice">Belice</option>
+            <option  value="Bolivia">Bolivia</option>
+            <option  value="Brasil">Brasil</option>
+            <option  value="Canadá">Canadá</option>
+            <option  value="Chile">Chile</option>
+            <option  value="Colombia">Colombia</option>
+            <option  value="Costa Rica">Costa Rica</option>
+            <option  value="Cuba">Cuba</option>
+            <option  value="Ecuador">Ecuador</option>
+            <option  value="El Salvador">El Salvador</option>
+            <option  value="España">España</option>
+            <option  value="Estados Unidos">Estados Unidos</option>
+            <option  value="Francia">Francia</option>
+            <option  value="Guatemala">Guatemala</option>
+            <option  value="Honduras">Honduras</option>
+            <option  value="Hungria">Hungria</option>
+            <option  value="Holanda">Holanda</option>
+            <option  value="Italia">Italia</option>
+            <option  value="México">México</option>
+            <option  value="Nigeria">Nicaragua</option>
+            <option  value="Panamá">Panamá</option>
+            <option  value="Perú">Paraguay</option>
+            <option  value="Paraguay">Paraguay</option>
+            <option  value="Portugal">Portugal</option>
+            <option  value="República Dominicana">República Dominicana</option>
+            <option  value="Suiza">Suiza</option>
+            <option  value="Uruguay">Uruguay</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <br><br>
+        <label for="">Contraseña:</label>
+        <input required type="password" name="contraseña" id="contraseña1" placeholder="Ejemplo: AlmiVall310">
+        <br><br>
+        <label for="">Vuelve a Escribir Contraseña:</label>
+        <input required type="password" name="contraseña" id="contraseña2" placeholder="Ejemplo: AlmiVall310">
+    
+
+
+    <div class="items">
+        <a href="login.html">¿Ya Tienes Una Cuenta?</a>
+        <br><br>
+        <a href="index.html">Omitir</a>
+        <br><br>
+        <a href="index.html">Volver Al Inicio</a>
+   
+        <input type="submit" value="Crear Cuenta" class="enviar">
+            
+    </form>
+</body>
+</html>
